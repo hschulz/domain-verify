@@ -1,0 +1,19 @@
+{
+    "extends": "./tsconfig-base.json",
+    "compilerOptions": {
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+    },
+    "exclude": [
+        "bin",
+        "dist",
+        "node_modules"
+    ],
+    "include": [
+        "src"
+    ],
+    "files": [
+        "index.ts"
+    ]
+}
